@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = 'zhibojuhe.spiders'
 
 ITEM_PIPELINES = {'scrapy.contrib.pipeline.images.ImagesPipeline': 1}
 
-IMAGES_STORE = '/Users/wangshuai/Documents/Code/zhibojuhe/zhibojuhe/img'
+IMAGES_STORE = './img'
 
 
 DOWNLOAD_HANDLERS = {
@@ -25,7 +25,7 @@ DOWNLOAD_HANDLERS = {
 }
 
 
-DOWNLOAD_DELAY = 5    # 250 ms of delay
+DOWNLOAD_DELAY = 1    # 250 ms of delay
 
 # 90 days of delay for image expiration
 IMAGES_EXPIRES = 30

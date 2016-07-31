@@ -90,3 +90,4 @@ ENV/
 
 img
 *.json
+.idea

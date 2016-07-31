@@ -8,7 +8,7 @@ class HuajiaoSpider(scrapy.Spider):
     allowed_domains = ["http://www.huajiao.com/"]
     start_urls = []
     def __init__(self, *a, **kw):
-        for i in range(30853569, 30953569):
+        for i in range(31853569, 31953569):
             self.start_urls.append('http://www.huajiao.com/user/%d'%i)
 
     def parse(self, response):
